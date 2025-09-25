@@ -8,5 +8,7 @@ html, body {
 
 canvas {
   display: block;
-  margin: auto;
+  width: 100vw;     /* scale the canvas to fit phone width */
+  height: auto;     /* keep aspect ratio */
+  max-height: 100vh;/* don't exceed screen height */
 }
